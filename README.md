@@ -78,6 +78,7 @@ malicious-example.com
 https://example.com
 44d88612fea8a8f36de82e1278abb02f
 ```
+<img width="841" height="490" alt="Screenshot 2026-06-01 073414" src="https://github.com/user-attachments/assets/a98fec7a-85ab-4ca1-9507-a51907de7a35" />
 
 ---
 
