@@ -2,7 +2,7 @@
 
 ## Overview
 
-The IOC Enrichment Tool is a Python-based cybersecurity utility designed to automate the enrichment of Indicators of Compromise (IOCs) using multiple threat intelligence sources.
+IOC Enrichment Tool is a Python-based cybersecurity utility designed to automate the enrichment of Indicators of Compromise (IOCs) using multiple threat intelligence sources.
 
 The tool accepts IP addresses, domains, URLs, and file hashes, automatically identifies the IOC type, queries external threat intelligence platforms, and generates a consolidated report containing reputation and threat information.
 
