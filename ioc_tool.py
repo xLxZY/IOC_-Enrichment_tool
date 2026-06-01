@@ -1,6 +1,8 @@
 import requests
 import csv
 import time
+import datetime
+import os
 
 # STEP 1 - Setup the API keys
 #------------------------------------
@@ -43,7 +45,7 @@ if choice == "1":
 
 elif choice == "2":
     print()
-    path = input("File path (e.g. C:/Users/Desktoprim/iocs.txt): ").strip()
+    path = input("File path (e.g. C:/Users/Desktop/iocs.txt): ").strip()
     try:
         with open(path, "r") as f:
             for line in f:
@@ -170,7 +172,9 @@ for ioc in iocs:
 # STEP 4 - save to results.csv
 #------------------------------------
 
-output_file = "results.csv"
+timestamp   = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+output_file = f"results_{timestamp}.csv"
+
 columns = ["ioc", "type", "vt_verdict", "vt_malicious", "vt_total", "ab_verdict", "ab_score", "ab_reports", "ab_country"]
 
 with open(output_file, "w", newline="") as f:
@@ -179,7 +183,12 @@ with open(output_file, "w", newline="") as f:
     for row in results:
         writer.writerow({col: row.get(col, "N/A") for col in columns})
 
+# Fil path
+full_path = os.path.abspath(output_file)
+
 print()
 print("===========================================")
-print(f" Done!  Results saved to: {output_file}")
+print(f" Done!")
+print(f" File saved as : {output_file}")
+print(f" Full path     : {full_path}")
 print("===========================================")
