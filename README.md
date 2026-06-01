@@ -78,6 +78,7 @@ malicious-example.com
 https://example.com
 44d88612fea8a8f36de82e1278abb02f
 ```
+<img width="841" height="520" alt="Screenshot 2026-06-01 073414" src="https://github.com/user-attachments/assets/a484439d-2355-4f69-a1db-bb944d3cba8d" />
 
 ---
 
@@ -89,6 +90,8 @@ Generates a structured CSV report:
 ioc,type,vt_verdict,vt_malicious,vt_total,ab_verdict
 8.8.8.8,ip,CLEAN,0,94,CLEAN
 ```
+
+<img width="1241" height="236" alt="Screenshot 2026-06-01 072746" src="https://github.com/user-attachments/assets/0b74a06d-a58c-40d9-b816-ebca7a38aa8d" />
 
 ---
 
@@ -124,6 +127,8 @@ Merge Results
       ▼
 Generate CSV Report
 ```
+
+<img width="652" height="515" alt="Screenshot 2026-06-01 073423" src="https://github.com/user-attachments/assets/df546a3d-6f30-42fc-8f08-724b39fccdfa" />
 
 ---
 
