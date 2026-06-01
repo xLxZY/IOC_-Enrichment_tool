@@ -131,18 +131,3 @@ Generate CSV Report
 <img width="652" height="515" alt="Screenshot 2026-06-01 073423" src="https://github.com/user-attachments/assets/df546a3d-6f30-42fc-8f08-724b39fccdfa" />
 
 ---
-
-# Example Use Cases
-
-### SOC Analyst
-
-Investigate suspicious IPs detected by SIEM alerts.
-
-### Threat Hunter
-
-Enrich indicators collected during threat hunting activities.
-
-### Incident Responder
-
-Validate malicious infrastructure related to a security incident.
-
