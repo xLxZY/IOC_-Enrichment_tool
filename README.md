@@ -128,6 +128,8 @@ Merge Results
 Generate CSV Report
 ```
 
+<img width="2514" height="6098" alt="diagram (2)" src="https://github.com/user-attachments/assets/73c48bbb-d2ea-4b18-ab80-5b0f79deb677" />
+
 <img width="652" height="515" alt="Screenshot 2026-06-01 073423" src="https://github.com/user-attachments/assets/df546a3d-6f30-42fc-8f08-724b39fccdfa" />
 
 ---
